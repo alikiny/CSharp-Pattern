@@ -43,7 +43,7 @@ namespace Pattern.src
         }
         public override string ToString()
         {
-            return $"{_accessor.ToString()} {_type} {_name};";
+            return $"{_accessor.ToString().ToLower()} {_type} {_name};";
         }
     
     }
